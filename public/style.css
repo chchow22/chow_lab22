@@ -1,0 +1,49 @@
+.lyrics {
+  border-width: 3px;
+  border-style: double;
+  border-color: rgba(255,0,255,0.7);
+  padding: 10px;
+  width: 50%;
+  text-align: center;
+  margin: 0 auto;
+  color: black;
+  font-weight: bold;
+}
+
+.lyrics:hover {
+  font-size: 100px;
+  transition: all 2s ease;
+}
+h1 {
+  width: 50%;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 15px;
+  color: black;
+
+}
+
+body {
+  background-image: url("america.png");
+  background-size: 100%
+}
+
+img {
+  width: 200px;
+  height: 140px;
+  border-radius: 10px;
+  border-width: medium;
+  border-style: ridge;
+  transition: all 2s ease;
+}
+
+img:hover {
+  height: 300px;
+}
+
+.imageContainer {
+  display: block;
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 50px;
+}
